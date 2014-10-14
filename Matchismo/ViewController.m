@@ -9,10 +9,15 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet UILabel *flipsLabel;
+@property (nonatomic) int flipCount;
 @end
 
 @implementation ViewController
+
+-(void)setFlipCount:(int)flipCount{
+    _flipCount = flipCount;
+}
 
 - (IBAction)touchCardButton:(UIButton *)sender {
     if([sender.currentTitle length]){
@@ -27,6 +32,7 @@
         [sender setTitle:@"A♣️"
                 forState:UIControlStateNormal];
     }
+    self.flipCount++;
 }
 
 @end
