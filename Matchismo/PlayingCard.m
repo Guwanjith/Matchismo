@@ -17,6 +17,8 @@
     return [rankStrings[self.rank] stringByAppendingString:self.suit];
 }
 
+@synthesize suit = _suit; //Because both the getter and setter are provided
+
 -(void)setSuit:(NSString *)suit
 {
     if ([@[@"♥️",@"♦️",@"♠️", @"♣️"] containsObject:suit]) {
