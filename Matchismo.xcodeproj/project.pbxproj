@@ -17,6 +17,7 @@
 		F249DB7619ECFF1300999B2D /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = F249DB7519ECFF1300999B2D /* Card.m */; };
 		F249DB7A19ED01E700999B2D /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = F249DB7919ED01E700999B2D /* Deck.m */; };
 		F249DB7D19ED0FDB00999B2D /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = F249DB7C19ED0FDB00999B2D /* PlayingCard.m */; };
+		F249DB8019ED17DF00999B2D /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = F249DB7F19ED17DF00999B2D /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		F249DB7919ED01E700999B2D /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 		F249DB7B19ED0FDB00999B2D /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
 		F249DB7C19ED0FDB00999B2D /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		F249DB7E19ED17DF00999B2D /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		F249DB7F19ED17DF00999B2D /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +141,8 @@
 				F249DB7919ED01E700999B2D /* Deck.m */,
 				F249DB7B19ED0FDB00999B2D /* PlayingCard.h */,
 				F249DB7C19ED0FDB00999B2D /* PlayingCard.m */,
+				F249DB7E19ED17DF00999B2D /* PlayingCardDeck.h */,
+				F249DB7F19ED17DF00999B2D /* PlayingCardDeck.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -246,6 +251,7 @@
 				F249DB7A19ED01E700999B2D /* Deck.m in Sources */,
 				F249DB5719ECFE2C00999B2D /* ViewController.m in Sources */,
 				F249DB5419ECFE2C00999B2D /* AppDelegate.m in Sources */,
+				F249DB8019ED17DF00999B2D /* PlayingCardDeck.m in Sources */,
 				F249DB5119ECFE2C00999B2D /* main.m in Sources */,
 				F249DB7619ECFF1300999B2D /* Card.m in Sources */,
 			);
