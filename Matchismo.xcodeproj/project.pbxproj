@@ -15,6 +15,7 @@
 		F249DB5F19ECFE2C00999B2D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F249DB5D19ECFE2C00999B2D /* LaunchScreen.xib */; };
 		F249DB6B19ECFE2C00999B2D /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F249DB6A19ECFE2C00999B2D /* MatchismoTests.m */; };
 		F249DB7619ECFF1300999B2D /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = F249DB7519ECFF1300999B2D /* Card.m */; };
+		F249DB7A19ED01E700999B2D /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = F249DB7919ED01E700999B2D /* Deck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		F249DB6A19ECFE2C00999B2D /* MatchismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchismoTests.m; sourceTree = "<group>"; };
 		F249DB7419ECFF1300999B2D /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 		F249DB7519ECFF1300999B2D /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		F249DB7819ED01E700999B2D /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		F249DB7919ED01E700999B2D /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +93,7 @@
 				F249DB5619ECFE2C00999B2D /* ViewController.m */,
 				F249DB5819ECFE2C00999B2D /* Main.storyboard */,
 				F249DB5B19ECFE2C00999B2D /* Images.xcassets */,
-				F249DB7419ECFF1300999B2D /* Card.h */,
-				F249DB7519ECFF1300999B2D /* Card.m */,
+				F249DB7719ED01B900999B2D /* Classes */,
 				F249DB5D19ECFE2C00999B2D /* LaunchScreen.xib */,
 				F249DB4E19ECFE2C00999B2D /* Supporting Files */,
 			);
@@ -122,6 +124,17 @@
 				F249DB6919ECFE2C00999B2D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F249DB7719ED01B900999B2D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F249DB7419ECFF1300999B2D /* Card.h */,
+				F249DB7519ECFF1300999B2D /* Card.m */,
+				F249DB7819ED01E700999B2D /* Deck.h */,
+				F249DB7919ED01E700999B2D /* Deck.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F249DB7A19ED01E700999B2D /* Deck.m in Sources */,
 				F249DB5719ECFE2C00999B2D /* ViewController.m in Sources */,
 				F249DB5419ECFE2C00999B2D /* AppDelegate.m in Sources */,
 				F249DB5119ECFE2C00999B2D /* main.m in Sources */,
