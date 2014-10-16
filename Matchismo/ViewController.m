@@ -17,6 +17,7 @@
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *cardButtons;
 @property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 
+
 @end
 
 @implementation ViewController
@@ -43,10 +44,11 @@
     //CardMatchingGame now handles all effects of choosing a card
     int chosenButtonIndex = [self.cardButtons indexOfObject:sender];
     [self.game chooseCardAtIndex:chosenButtonIndex];
-    
     [self updateUI];
     
 }
+
+
 
 -(void)updateUI
 {
