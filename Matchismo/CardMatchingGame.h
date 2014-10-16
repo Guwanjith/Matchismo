@@ -12,6 +12,7 @@
 
 @interface CardMatchingGame : NSObject
 
+//Designated initializer
 -(instancetype)initWithCardCount:(NSUInteger)count
                         usingDeck:(Deck *)deck;
 

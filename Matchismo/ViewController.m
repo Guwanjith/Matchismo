@@ -17,20 +17,25 @@
 
 @implementation ViewController
 
--(Deck *)deck{
+-(Deck *)deck
+{
     if (!_deck) _deck = [self createDeck];
     return _deck;
 }
 
--(Deck *)createDeck{
+-(Deck *)createDeck
+{
     return [[PlayingCardDeck alloc] init];
 }
--(void)setFlipCount:(int)flipCount{
+
+-(void)setFlipCount:(int)flipCount
+{
     _flipCount = flipCount;
     self.flipsLabel.text = [NSString stringWithFormat:@"Flips: %d", self.flipCount];
 }
 
-- (IBAction)touchCardButton:(UIButton *)sender {
+- (IBAction)touchCardButton:(UIButton *)sender
+{
     if([sender.currentTitle length]){
         [sender setBackgroundImage:[UIImage imageNamed:@"CardBack"]
                           forState:UIControlStateNormal];

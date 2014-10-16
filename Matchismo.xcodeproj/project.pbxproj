@@ -101,8 +101,6 @@
 				F249DB5519ECFE2C00999B2D /* ViewController.h */,
 				F249DB5619ECFE2C00999B2D /* ViewController.m */,
 				F249DB5819ECFE2C00999B2D /* Main.storyboard */,
-				F2937A6F19EFD55F0061DBAA /* CardMatchingGame.h */,
-				F2937A7019EFD55F0061DBAA /* CardMatchingGame.m */,
 				F249DB5B19ECFE2C00999B2D /* Images.xcassets */,
 				F249DB7719ED01B900999B2D /* Classes */,
 				F249DB5D19ECFE2C00999B2D /* LaunchScreen.xib */,
@@ -148,6 +146,8 @@
 				F249DB7C19ED0FDB00999B2D /* PlayingCard.m */,
 				F249DB7E19ED17DF00999B2D /* PlayingCardDeck.h */,
 				F249DB7F19ED17DF00999B2D /* PlayingCardDeck.m */,
+				F2937A6F19EFD55F0061DBAA /* CardMatchingGame.h */,
+				F2937A7019EFD55F0061DBAA /* CardMatchingGame.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
