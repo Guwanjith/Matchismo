@@ -15,6 +15,10 @@
 
 @end
 
+static const int MISMATCH_PENALTY = 2;
+static const int MATCH_BONUS = 4;
+static const int COST_TO_CHOOSE = 1;
+
 
 @implementation CardMatchingGame
 
@@ -47,6 +51,34 @@
 {
     return (index < [self.cards count])? self.cards[index] : nil;
     //If index is not out of bounds return card at index, else return nil
+}
+
+
+-(void)chooseCardAtIndex:(NSUInteger)index
+{
+    Card *card = [self cardAtIndex:index];
+    if (!card.isMatched) {
+        if(card.isChosen){
+            card.Chosen = NO;
+        }else{
+            //match against other cards
+            for (Card *otherCard in self.cards) {
+                if (otherCard.isChosen && !otherCard.isMatched) {
+                    int matchScore = [card match:@[otherCard]];
+                    if (matchScore) {
+                        self.score += matchScore * MATCH_BONUS;
+                        otherCard.matched = YES;
+                        card.matched = YES;
+                    }else{
+                        self.score -= MISMATCH_PENALTY;
+                        otherCard.chosen = NO;
+                    }
+                    self.score -= COST_TO_CHOOSE;
+                    break; //can only choose two cards for now
+                }
+            }
+        }
+    }
 }
 
 @end
