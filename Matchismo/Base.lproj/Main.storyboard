@@ -27,7 +27,7 @@
                                     <action selector="touchCardButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Vlt-Q6-nDR"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flips: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BRR-od-pCc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BRR-od-pCc">
                                 <rect key="frame" x="16" y="531" width="568" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -159,6 +159,7 @@
                     </view>
                     <connections>
                         <outlet property="flipsLabel" destination="BRR-od-pCc" id="rpj-Xa-yUP"/>
+                        <outlet property="scoreLabel" destination="BRR-od-pCc" id="cl9-6M-ACV"/>
                         <outletCollection property="cardButtons" destination="GFO-9K-EXQ" id="Vk1-0E-Xra"/>
                         <outletCollection property="cardButtons" destination="838-0g-Dpx" id="0EE-Vf-Zsm"/>
                         <outletCollection property="cardButtons" destination="moM-re-vb7" id="h2X-YH-mA8"/>
